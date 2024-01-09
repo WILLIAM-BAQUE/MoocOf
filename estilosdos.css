@@ -262,11 +262,15 @@ header.hidden {
 
 
 /* Cuadro */
-.recuadros{
-display: flex;
-    width: 100%;
-    justify-content: space-evenly;
+
+.recuadros1 {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    gap: 30px; /* Espacio entre los cuadros */
+    margin: 0 auto; /* Centra el contenedor de cuadros en la página */
+    max-width: 1000px; /* Ajusta el ancho máximo de la sección según sea necesario */
 }
 
 .cuadro {
@@ -274,15 +278,17 @@ display: flex;
     border: 1px solid #ccc;
     margin: 15px;
     padding: 5px;
-    display: inline-block;
     text-align: center;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.13);
-    transform: scale(1);
     border-radius: 5%;
     transition: transform 0.6s;
     background-color: rgb(255, 255, 255);
 }
 
+
+.centered-heading {
+    text-align: center;
+}
 .cuadro img {
     max-width: 280px;
     border-radius: 5%;
@@ -296,6 +302,88 @@ font-size: 15px;
 text-align: justify;
 margin: 15px;
 }
+
+.recuadros2{
+    display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .centered-heading {
+        text-align: center;
+    }
+    
+    
+    .cuadro {
+        width: 300px;
+        border: 1px solid #ccc;
+        margin: 15px;
+        padding: 5px;
+        display: inline-block;
+        text-align: center;
+        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.13);
+        transform: scale(1);
+        border-radius: 5%;
+        transition: transform 0.6s;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .cuadro img {
+        max-width: 280px;
+        border-radius: 5%;
+    }
+    
+    .cuadro h2 {
+    font-size: 18px;
+    }
+    .cuadro p {
+    font-size: 15px;
+    text-align: justify;
+    margin: 15px;
+    }
+
+    
+    .recuadros3{
+        display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        
+        .centered-heading {
+            text-align: center;
+        }
+        
+        
+        .cuadro {
+            width: 300px;
+            border: 1px solid #ccc;
+            margin: 15px;
+            padding: 5px;
+            display: inline-block;
+            text-align: center;
+            box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.13);
+            transform: scale(1);
+            border-radius: 5%;
+            transition: transform 0.6s;
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .cuadro img {
+            max-width: 280px;
+            border-radius: 5%;
+        }
+        
+        .cuadro h2 {
+        font-size: 18px;
+        }
+        .cuadro p {
+        font-size: 15px;
+        text-align: justify;
+        margin: 15px;
+        }
+        
 
 /* BENEFICIOS */
 
