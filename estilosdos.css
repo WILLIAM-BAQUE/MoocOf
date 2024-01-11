@@ -1,3 +1,9 @@
+img {
+    width: 100%;
+    height: auto; /* Para mantener la proporción original de la imagen */
+    top: 0;
+    left: 0;
+}
 /*BOTON HOMRE*/
 .boton-home {
     display: inline-block;
